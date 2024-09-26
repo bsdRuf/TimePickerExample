@@ -114,7 +114,7 @@ namespace TimePickerExample.Views
                     }
                 }
 
-                string message = "Zeit: " + hh + ":" + mm;
+                string message = "Time: " + hh + ":" + mm;
                 this.lblSelectedTime.Content = message;
 
                 this.minutesTodo = false;
